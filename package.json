@@ -1,0 +1,37 @@
+{
+  "name": "task-raft",
+  "version": "1.0.0",
+  "description": "A task-management web application as a service.",
+  "main": "index.js",
+     "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "pnpm -C frontend run dev",
+    "dev": "concurrently \"pnpm run server\" \"pnpm run client\""
+  },
+  "author": "Alan",
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "^5.80.7",
+    "axios": "^1.10.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "nodemailer": "^6.9.4",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
