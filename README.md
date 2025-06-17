@@ -1,12 +1,4 @@
-# TaskRaft
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) <br/>
-![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**TaskRaft** is a compact mini-SaaS designed for collaborative task management using the efficient Kanban system. Built using the MERN Stack, along with [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), and [shadcn/ui](https://ui.shadcn.com/) + [TailwindCSS](https://tailwindcss.com/) at the frontend. TaskRaft draws inspiration from task management apps like [Tasksboard](https://ui.shadcn.com/) and [Trello](https://trello.com/), offering a simplified yet robust approach. [Tanstack Query](https://example.com/tanstack-query) and [Zustand](https://example.com/zustand) are used for server-side and global state management respectively. User authentication is handled through JSON Web Tokens (JWT), while data modeling relies on [Mongoose](https://mongoosejs.com/).
-
-![](screenshot.png)
-
+# BugTracker
 ## Features
 
 - Robust user registration and login powered by JWT authentication.
