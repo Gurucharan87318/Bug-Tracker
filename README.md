@@ -1,9 +1,11 @@
 # BugTracker
+![Screenshot 2025-06-17 140534](https://github.com/user-attachments/assets/fe82c761-0638-48dc-84bf-c47e986150d0)
 ## Features
 
 - Robust user registration and login powered by JWT authentication.
     - User-friendly profile page for editing personal information.
 - An accessible user dashboard for convenient access to recent and existing boards, with the option to create new ones.
+
 - An intuitive board view, reminiscent of popular Kanban board interfaces such as Trello and Tasksboard.
     - Functionality for adding lists to boards and cards to lists.
     - Board information editing capabilities.
