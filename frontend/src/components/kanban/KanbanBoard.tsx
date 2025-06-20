@@ -133,7 +133,7 @@ function KanbanBoard({ boardId }: KanbanBoardProps) {
                     <EditBoardSheet boardData={boardData}>
                         <Button variant="ghost"><RxGear className="cursor-pointer" size={24} /></Button>
                     </EditBoardSheet>
-                    { (isFetching || isLoading) ? <LuLoader2 size={24} className="animate-spin" /> : <RxReload size={24} className="cursor-pointer" onClick={refetch} /> }
+                    { (isFetching || isLoading) ? <LuLoader2 size={24} className="animate-spin" /> : <RxReload size={24} className="cursor-pointer" onClick={() => refetch} /> }
                     { 
                         canEditBoard &&  
                         <InviteCollaboratorModal inviteCollaborator={inviteCollaborator}>
